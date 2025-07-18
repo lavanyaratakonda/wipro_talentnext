@@ -93,7 +93,8 @@ class VideoStore {
                     " | Available: " + (!store[i].getCheckout()));
         }
     }
-
+}
+class MiniProject2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         VideoStore store = new VideoStore();
