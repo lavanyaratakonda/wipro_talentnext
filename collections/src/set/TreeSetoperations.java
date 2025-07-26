@@ -3,7 +3,7 @@ import java.util.TreeSet;
 import java.util.Scanner;
 import java.util.Iterator;
 
-public class TreeSetOperations {
+public class TreeSetoperations {
     private TreeSet<String> H1 = new TreeSet<>();
 
     public TreeSet<String> saveCountryNames(String CountryName) {
@@ -23,7 +23,7 @@ public class TreeSetOperations {
     }
 
     public static void main(String[] args) {
-        TreeSetOperations countrySet = new TreeSetOperations();
+        TreeSetoperations countrySet = new TreeSetoperations();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter country names to add to TreeSet (type 'exit' to stop):");
