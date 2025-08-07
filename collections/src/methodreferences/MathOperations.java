@@ -11,9 +11,7 @@ class MathOperations {
         if (n == 0) return 1;
         return n * factorial(n - 1);
     }
-}
 
-public class FactorialWithMethodReference {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         MathOperations mathOps = new MathOperations();
